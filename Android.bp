@@ -40,21 +40,22 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libbtconfigstore",
+	name: "libbtnv",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/libbtconfigstore.so"],
+			srcs: ["proprietary/vendor/lib/libbtnv.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/lib64/libbtconfigstore.so"],
+			srcs: ["proprietary/vendor/lib64/libbtnv.so"],
 		},
 	},
 	compile_multilib: "both",
 	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
