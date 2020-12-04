@@ -375,14 +375,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.gnss@2.0-service-qti",
-	srcs: ["proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti"],
+	name: "android.hardware.gnss@2.1-service-qti",
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti"],
 	vintf_fragments: [
-		"proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml",
-		"proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml"
+		"proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
+		"proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml"
 	],
 	init_rc: [
-		"proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc",
+		"proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc",
 	],
 	vendor: true,
 	relative_install_path: "hw",
