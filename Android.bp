@@ -406,16 +406,3 @@ cc_prebuilt_binary {
 	vendor: true,
 	relative_install_path: "hw",
 }
-
-cc_prebuilt_binary {
-	name: "vendor.qti.hardware.servicetracker@1.2-service",
-	srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service"],
-	vintf_fragments: [
-		"proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml"
-	],
-	init_rc: [
-		"proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc",
-	],
-	vendor: true,
-	relative_install_path: "hw",
-}
