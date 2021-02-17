@@ -3535,6 +3535,4 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     CACertService \
     vendor.qti.hardware.capabilityconfigstore-V1.0-java \
-    vendor.qti.hardware.capabilityconfigstore@1.0_system \
-    vendor.qti.hardware.capabilityconfigstore@1.0_vendor \
     android.hardware.gnss@2.1-service-qti
