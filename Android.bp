@@ -349,3 +349,16 @@ cc_prebuilt_binary {
 	vendor: true,
 	relative_install_path: "hw",
 }
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.2-service.widevine",
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine"],
+	vintf_fragments: [
+		"proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml"
+	],
+	init_rc: [
+		"proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc",
+	],
+	vendor: true,
+	relative_install_path: "hw",
+}
