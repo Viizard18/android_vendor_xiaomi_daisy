@@ -3154,4 +3154,4 @@ PRODUCT_PACKAGES += \
     CACertService \
     vendor.qti.hardware.capabilityconfigstore-V1.0-java \
     android.hardware.gnss@2.1-service-qti \
-    android.hardware.drm@1.2-service.widevine
+    android.hardware.drm@1.3-service.widevine
