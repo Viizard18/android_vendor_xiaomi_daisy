@@ -3148,9 +3148,11 @@ PRODUCT_PACKAGES += \
     uceShimService \
     ims \
     qcrilmsgtunnel \
+    dpmserviceapp \
     QPerformance \
     UxPerformance \
     WfdCommon \
+    tcmclient \
     CACertService \
     vendor.qti.hardware.capabilityconfigstore-V1.0-java \
     android.hardware.gnss@2.1-service-qti \
